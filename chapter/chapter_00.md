@@ -19,3 +19,4 @@ docker run --name dev \
 
 # 整体效果展示
 
+![canal-docker-demo-搭建](/res/p_01.gif)

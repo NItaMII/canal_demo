@@ -23,6 +23,7 @@ canal-admin服务本身是依赖数据库服务。在canal-admin启动过程中�
 docker build -t personal/canal-admin:v1.1.4 .
 
 docker run --name=canal-admin \
+    --rm \
     -d \
     -it \
     --net=container:dev \
@@ -34,4 +35,4 @@ docker run --name=canal-admin \
     personal/canal-admin:v1.1.4
 ```
 
-在数据库授权正常的情况下，本机访问http://localhost:8089，登录canal-admin后台。(账号/密码：admin/123456)
+在数据库授权正常的情况下，本机访问[http://localhost:8089](http://localhost:8089)，登录canal-admin后台。(账号/密码：admin/123456)

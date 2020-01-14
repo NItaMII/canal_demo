@@ -10,6 +10,7 @@ docker build -t personal/canal-server:v1.1.4 .
 
 
 docker run --name=canal-server \
+    --rm \
     -d \
     -it \
     --net=container:dev \
